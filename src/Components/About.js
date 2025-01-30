@@ -13,17 +13,19 @@ const About = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">About Redifu App</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+        Food Waste Is Filling Our Landfills, While People Go Hungry
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        In slum areas like Kibera, food waste is everywhere—from homes and restaurants to events, meetings, and celebrations. Perfectly good meals get tossed while families struggle to find their next one.
+
+It’s not just waste—it’s a missed opportunity to feed people and protect our environment. Over a third of agricultural land and water worldwide is used to produce food that never gets eaten.
+
+We’ve all seen it—stacks of untouched food trays at weddings, meetings, and parties. No one needs 30 leftover samosas and a mountain of rice—okay, maybe someone does. Instead of letting it go to waste, why not share it?
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        That’s why we created Redifu—to connect surplus food with those who need it most.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
