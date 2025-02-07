@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../Assets/Logo.svg";
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -18,6 +18,7 @@ import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 
 const Navbar = () => {
+ 
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
@@ -47,14 +48,13 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Rescue Food Now</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact us</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">LOGIN</button>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/testimonials">Testimonials</Link>
+        <Link to="/contact">Contact Us</Link>
+        <Link to="/login">
+          <button className="primary-button">LOGIN</button>
+        </Link>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
