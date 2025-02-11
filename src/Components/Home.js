@@ -10,7 +10,8 @@ import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <main className="p-4 mt-16">
+      <div className="home-container">
       {/* Home Banner Section */}
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
@@ -40,6 +41,7 @@ const Home = () => {
       <Contact />     {/* ✅ Contact section appears on Home */}
       <Footer />      {/* ✅ Footer appears on Home */}
     </div>
+    </main>
   );
 };
 

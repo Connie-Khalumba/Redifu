@@ -14,7 +14,7 @@
     padding: 40px;
 }
 
-.wrapper .active .form-box .login {
+.wrapper.active .form-box.login {
     transition: none;
     translate: -400px;
     
@@ -23,6 +23,11 @@
 .wrapper .form-box .register {
     position: absolute;
     translate: 480px;
+}
+
+.wrapper.active .form-box.register {
+    transition: translate .18s ease;
+    translate: 0;
 }
 
 form h1 {
