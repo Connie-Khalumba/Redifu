@@ -29,6 +29,10 @@ nav {
   justify-content: space-between;
   min-height: 90px;
 }
+.nav-logo-container {
+  max-width: 130px;
+  margin: 20px;
+}
 .navbar-menu-container {
   display: none;
 }
@@ -202,14 +206,16 @@ nav {
 }
 .footer-logo-container {
   max-width: 110px;
+  margin: 20px;
 }
 .footer-icons {
   margin-top: 2.5rem;
+  margin-left: 20px;
 }
 .footer-icons svg {
   font-size: 1.5rem;
   margin-right: 1.25rem;
-  color: #585858;
+  color: #089944;
 }
 /* .footer-section-one {
   border: 2px solid blue;
