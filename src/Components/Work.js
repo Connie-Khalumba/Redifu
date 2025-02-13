@@ -31,7 +31,7 @@ const Work = () => {
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Features</p>
-        <h1 className="primary-heading">Description</h1>
+        <h1 className="primary-heading">How does Redifu App help stop food waste?</h1>
         <p className="primary-text">
         Redifu makes food sharing easy and efficient by connecting donors with those in need. Our platform ensures seamless coordination, real-time updates, and impact tracking to reduce food waste and fight hunger.
         </p>
