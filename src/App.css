@@ -313,6 +313,89 @@ nav {
   font-weight: 600;
 }
 
+/* login */
+
+/* General Styles */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+}
+
+.form-box {
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 350px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Hide inactive form */
+.form-box:not(.active) {
+  display: none;
+}
+
+/* Input Styles */
+.input-box {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.input-box .icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+/* Button Styles */
+.login-btn {
+  padding: 10px 20px; /* Adjusted padding */
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px; /* Smaller radius */
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+  width: auto; /* Prevents stretching */
+  min-width: 120px; /* Ensures good button size */
+}
+
+.login-btn:hover {
+  background: #0056b3;
+}
+
+/* Links */
+.register-link, .dashboard-link {
+  margin-top: 10px;
+}
+
+.register-link span, .dashboard-link a {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.register-link span:hover, .dashboard-link a:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;

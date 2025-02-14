@@ -7,6 +7,7 @@ import Work from "./Components/Work";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import LoginRegister from "./Components/LoginRegister/LoginRegister";
+import Dashboard from "./Components/Dashboard";
 
 function App() {
   return (
