@@ -50,7 +50,7 @@ const Navbar = () => {
       <div className="navbar-links-container">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/testimonials">Testimonials</Link>
+        <Link to="/testimonials">Services</Link>
         <Link to="/contact">Contact Us</Link>
         <Link to="/login">
           <button className="primary-button">LOGIN</button>
