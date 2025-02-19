@@ -45,7 +45,7 @@ nav {
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
-  background-color: white;
+  background-color: rgb(12, 117, 30);
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -317,19 +317,25 @@ nav {
 
 /* General Styles */
 .wrapper {
+  background: url(./Assets/pexels-photo-3002031.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #f4f4f4;
 }
 
 .form-box {
-  background: white;
-  padding: 2rem;
+  background: rgba(255, 255, 255, 0.2); /* White with transparency */
+  backdrop-filter: blur(10px);
+  padding: 5%;
+  border: 2px solid rgba(255, 255, 255, .5); 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  width: 350px;
+  width: 40vw;
+  margin: auto;
+  height: 70vh;
   text-align: center;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
