@@ -24,10 +24,17 @@ body {
 }
 
 nav {
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
+  background: rgba(255, 255, 255, 0.2); /* Light transparent background */
+  backdrop-filter: blur(10px); /* Blurry glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
 }
 .nav-logo-container {
   max-width: 130px;
@@ -387,8 +394,11 @@ nav {
 }
 
 /* Links */
+.register-link{
+margin-bottom: 70px;
+}
 .register-link, .dashboard-link {
-  margin-top: 10px;
+  margin-bottom: 90px;
 }
 
 .register-link span, .dashboard-link a {
