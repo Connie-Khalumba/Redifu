@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
+import { Link } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
@@ -25,9 +26,9 @@ const Home = () => {
             Every year, millions of meals end up in landfills while families struggle to find their next meal. 
             That’s not just waste—it’s a missed opportunity to help.
           </p>
-          <button className="secondary-button">
-            Order Now <FiArrowRight />
-          </button>
+          <Link to="/login" className="secondary-button">
+  Order Now <FiArrowRight />
+</Link>
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="Banner" />

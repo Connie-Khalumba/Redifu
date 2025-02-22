@@ -32,7 +32,7 @@ const LoginRegister = () => {
             <p>Don't have an Account? <span onClick={() => setAction('register')}>Register</span></p>
           </div>
           <div className="dashboard-link">
-            <p>Go to <Link to="/Dashboard">Dashboard</Link></p>
+            <p>Go to <Link to="/dashboard">Dashboard</Link></p>
           </div>
         </form>
       </div>
