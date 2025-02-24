@@ -5,7 +5,7 @@ import Testimonial from "./Testimonial";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/home-banner-image.png";
+import BannerImage from "../Assets/organic-Food-removebg-preview.png";
 import { Link } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 
