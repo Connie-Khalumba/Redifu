@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Contact = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const Contact = () => {
                 <span className="mb-4 block text-base font-semibold text-primary">
                   Contact Us
                 </span>
-                <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+                <h2 className="mb-6 text-[32px] font-bold uppercase text-success dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                   GET IN TOUCH WITH US
                 </h2>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">
@@ -41,7 +42,7 @@ const Contact = () => {
                       Our Location
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                    Muindi Mbingu Strt Moi Avenue,
                     </p>
                   </div>
                 </div>
@@ -81,7 +82,7 @@ const Contact = () => {
                       Phone Number
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      (+62)81 414 257 9980
+                      (+254)7 414 257 9980
                     </p>
                   </div>
                 </div>
@@ -106,7 +107,7 @@ const Contact = () => {
                       Email Address
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      info@yourdomain.com
+                      info@www.redifuapp.co.ke
                     </p>
                   </div>
                 </div>

@@ -19,7 +19,7 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+    <div className="max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg mt-20 mb-20">
       <h2 className="text-2xl font-bold mb-4 text-center">Frequently Asked Questions</h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (

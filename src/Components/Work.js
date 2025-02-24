@@ -28,6 +28,7 @@ const Work = () => {
     },
   ];
   return (
+    <div className="mt-20 px-4">
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Features</p>
@@ -47,6 +48,7 @@ const Work = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
