@@ -60,19 +60,19 @@ const Footer = () => {
 
                 <ul className="mt-6 space-y-4">
                     <li>
-                        <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> About </a>
+                        <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-green-600 focus:text-green-600"> About </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Features </a>
+                        <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-green-600 focus:text-green-600"> Dashboard </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Works </a>
+                        <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-green-600 focus:text-green-600"> Works </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Career </a>
+                        <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-green-600 focus:text-green-600"> Conctact Us </a>
                     </li>
                 </ul>
             </div>
@@ -82,19 +82,19 @@ const Footer = () => {
 
                 <ul className="mt-6 space-y-4">
                     <li>
-                        <a href="./services" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Customer Support </a>
+                        <a href="./services" title="" className="flex text-base text-black transition-all duration-200 hover:text-green-600 focus:text-green-600"> Customer Support </a>
                     </li>
 
                     <li>
-                        <a href="./delivery" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Delivery Details </a>
+                        <a href="./delivery" title="" className="flex text-base text-black transition-all duration-200 hover:text-green-600 focus:text-green-600"> Delivery Details </a>
                     </li>
 
                     <li>
-                        <a href="./termsConditions" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Terms & Conditions </a>
+                        <a href="./termsConditions" title="" className="flex text-base text-black transition-all duration-200 hover:text-green-600 focus:text-green-600"> Terms & Conditions </a>
                     </li>
 
                     <li>
-                        <a href="./privacy" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Privacy Policy </a>
+                        <a href="./privacy" title="" className="flex text-base text-black transition-all duration-200 hover:text-green-600 focus:text-green-600"> Privacy Policy </a>
                     </li>
                 </ul>
             </div>
