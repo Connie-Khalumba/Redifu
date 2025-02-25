@@ -1,4 +1,5 @@
 import React from "react";
+import connie from '../Assets/Connie.jpg'
 
 const Team = () => {
   return (
@@ -10,17 +11,17 @@ const Team = () => {
             Our Team
           </span>
           <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
-            Our Awesome Team
+          Meet the Redifu Team
           </h2>
           <p className="text-base text-body-color dark:text-dark-6 mx-auto max-w-[600px]">
-            There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.
+          Passionate about reducing food waste and empowering the Kibera community, our team connects local organizations with surplus food to those who need it most. Together, we’re building a sustainable future—one meal at a time.
           </p>
         </div>
 
         {/* Team Cards Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 w-full">
-          <TeamCard name="Coriss Ambady" profession="Web Developer" imageSrc="https://i.ibb.co/T1J9LD4/image-03-2.jpg" />
-          <TeamCard name="Coriss Ambady" profession="Web Developer" imageSrc="https://i.ibb.co/8P6cvVy/image-01-1.jpg" />
+          <TeamCard name="Constance Khalumba" profession="Web Developer" imageSrc={connie} />
+          <TeamCard name="Anthony Kimani" profession="Web Developer" imageSrc="https://i.ibb.co/8P6cvVy/image-01-1.jpg" />
           <TeamCard name="Coriss Ambady" profession="Web Developer" imageSrc="https://i.ibb.co/30tGtjP/image-04.jpg" />
           <TeamCard name="Coriss Ambady" profession="Web Developer" imageSrc="https://i.ibb.co/yVVT0Dp/image-02-2.jpg" />
         </div>
