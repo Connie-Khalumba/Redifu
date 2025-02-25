@@ -8,6 +8,7 @@ import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/organic-Food-removebg-preview.png";
 import { Link } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
+import Team from "./Team";
 
 const Home = () => {
   return (
@@ -36,7 +37,8 @@ const Home = () => {
       </div>
 
       {/* Other Sections to be Visible on Home Page */}
-      <About />       {/* ✅ About section appears on Home */}
+      <About />  
+      <Team/>     {/* ✅ About section appears on Home */}
       <Work />        {/* ✅ Work section appears on Home */}
       <Testimonial /> {/* ✅ Testimonials section appears on Home */}
       <Contact />     {/* ✅ Contact section appears on Home */}

@@ -30,6 +30,10 @@ const Navbar = () => {
       icon: <InfoIcon />,
     },
     {
+      text: "Team",
+      icon: <InfoIcon />,
+    },
+    {
       text: "Testimonials",
       icon: <CommentRoundedIcon />,
     },
@@ -50,6 +54,7 @@ const Navbar = () => {
       <div className="navbar-links-container">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/team">Team</Link>
         <Link to="/testimonials">Services</Link>
         <Link to="/contact">Contact Us</Link>
         <Link to="/login">

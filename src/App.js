@@ -9,6 +9,7 @@ import Contact from "./Components/Contact";
 import Register from "./Components/LoginRegister/Register";
 import Login from "./Components/LoginRegister/Login";
 import Dashboard from "./Components/Dashboard";
+import Team from "./Components/Team";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/services" element={<Services />} />
         <Route path="/testimonials" element={<Testimonial />} />
         <Route path="/contact" element={<Contact />} />
