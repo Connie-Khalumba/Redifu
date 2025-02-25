@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Redifu/static/css/main.a0a673dd.css",
+    "main.js": "/Redifu/static/js/main.a6c250a9.js",
+    "static/media/about-background-image.png": "/Redifu/static/media/about-background-image.d0e45280dd69dec26ee6.png",
+    "static/media/organic-Food-removebg-preview.png": "/Redifu/static/media/organic-Food-removebg-preview.4d0628e76c599d6b3304.png",
+    "static/media/Connie.jpg": "/Redifu/static/media/Connie.82715c95908ffa28767a.jpg",
+    "static/media/conifers-1867371_1280.jpg": "/Redifu/static/media/conifers-1867371_1280.a496cfd156cfca4aaaa4.jpg",
+    "static/media/pexels-photo-3002031.jpeg": "/Redifu/static/media/pexels-photo-3002031.c59d13143f74f2ebb533.jpeg",
+    "static/media/logo.redifu-removebg-preview.png": "/Redifu/static/media/logo.redifu-removebg-preview.b6534649a1d3b61694cd.png",
+    "static/media/balanced-diet.png": "/Redifu/static/media/balanced-diet.fc9a73a64af361f2bec5.png",
+    "static/media/navigator.png": "/Redifu/static/media/navigator.a3fd031ea500def7b50b.png",
+    "static/media/bell.png": "/Redifu/static/media/bell.2f6bb8df9eeb266f95a1.png",
+    "static/media/home-banner-background.png": "/Redifu/static/media/home-banner-background.585600da7ff85661555e.png",
+    "index.html": "/Redifu/index.html",
+    "main.a0a673dd.css.map": "/Redifu/static/css/main.a0a673dd.css.map",
+    "main.a6c250a9.js.map": "/Redifu/static/js/main.a6c250a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0a673dd.css",
+    "static/js/main.a6c250a9.js"
+  ]
+}
