@@ -23,7 +23,7 @@ const Team = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 w-full">
           <TeamCard name="Constance Khalumba" profession="Web Developer" imageSrc={connie} />
           <TeamCard name="Anthony Kimani" profession="Web Developer" imageSrc={Anthony}/>
-          <TeamCard name="Coriss Ambady" profession="Web Developer" imageSrc="https://i.ibb.co/30tGtjP/image-04.jpg" />
+          <TeamCard name="Vision" profession="Web Developer" imageSrc="https://i.ibb.co/30tGtjP/image-04.jpg" />
           <TeamCard name="Coriss Ambady" profession="Web Developer" imageSrc="https://i.ibb.co/yVVT0Dp/image-02-2.jpg" />
         </div>
       </div>
