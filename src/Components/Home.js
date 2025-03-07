@@ -27,8 +27,8 @@ const Home = () => {
             Every year, millions of meals end up in landfills while families struggle to find their next meal. 
             That’s not just waste—it’s a missed opportunity to help.
           </p>
-          <Link to="/login" className="secondary-button">
-  Order Now <FiArrowRight />
+          <Link to="/register" className="secondary-button">
+  Learn More <FiArrowRight />
 </Link>
         </div>
         <div className="home-image-section">
