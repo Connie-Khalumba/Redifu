@@ -37,7 +37,7 @@ const Navbar = () => {
     {
       text: "Services",
       icon: <CommentRoundedIcon />,
-      path: "/work",
+      path: "/services",
     },
     {
       text: "Contact",

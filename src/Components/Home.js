@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./About";
-import Work from "./Work";
+import Work from "./Services";
 import Testimonial from "./Testimonial";
 import Contact from "./Contact";
 import Footer from "./Footer";

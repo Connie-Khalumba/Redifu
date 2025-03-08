@@ -4,7 +4,7 @@ import ChooseMeals from "../Assets/navigator.png";
 import DeliveryMeals from "../Assets/bell.png";
 import ImpactTrack from "../Assets/bar-graph.png";
 
-const Work = () => {
+const Services = () => {
   const workInfoData = [
     {
       image: PickMeals,
@@ -53,4 +53,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Services;

@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom"; // ❌ Removed BrowserRouter
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Services from "./Components/Work";
+import Services from "./Components/Services";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Register from "./Components/LoginRegister/Register";
