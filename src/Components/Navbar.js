@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Assets/logo.redifu-removebg-preview.png";
@@ -18,46 +17,52 @@ import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import { LoginRounded } from "@mui/icons-material";
 
 const Navbar = () => {
- 
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
       text: "Home",
       icon: <HomeIcon />,
+      path: "/",
     },
     {
       text: "About",
       icon: <InfoIcon />,
+      path: "/about",
     },
     {
       text: "Team",
       icon: <InfoIcon />,
+      path: "/team",
     },
     {
       text: "Services",
       icon: <CommentRoundedIcon />,
+      path: "/work",
     },
     {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
+      path: "/contact",
     },
     {
       text: "Login",
       icon: <LoginRounded />,
+      path: "/register",
     },
   ];
+
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md p-4">
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="RediFu Logo" />
       </div>
       <div className="navbar-links-container">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/team">Team</Link>
-        <Link to="/testimonials">Services</Link>
+        <Link to="/work">Services</Link>
         <Link to="/contact">Contact Us</Link>
-        <Link to="/Register">
+        <Link to="/register">
           <button className="primary-button">LOGIN</button>
         </Link>
       </div>
@@ -74,7 +79,10 @@ const Navbar = () => {
           <List>
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
-                <ListItemButton>
+                <ListItemButton
+                  component={Link} // Use Link as the component
+                  to={item.path} // Navigate to the defined path
+                >
                   <ListItemIcon>{item.icon}</ListItemIcon>
                   <ListItemText primary={item.text} />
                 </ListItemButton>

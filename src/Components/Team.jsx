@@ -1,6 +1,7 @@
 import React from "react";
 import connie from '../Assets/Connie.jpg'
 import Anthony from '../Assets/POLYCOM DAY OF THE AFRICAN CHILD-CC2_3462 (1) (1).jpg'
+import John from '../Assets/ivana-square.jpg'
 
 const Team = () => {
   return (
@@ -21,10 +22,10 @@ const Team = () => {
 
         {/* Team Cards Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4 w-full">
-          <TeamCard name="Constance Khalumba" profession="Web Developer" imageSrc={connie} />
-          <TeamCard name="Anthony Kimani" profession="Web Developer" imageSrc={Anthony}/>
-          <TeamCard name="Vision" profession="Web Developer" imageSrc="https://i.ibb.co/30tGtjP/image-04.jpg" />
-          <TeamCard name="Coriss Ambady" profession="Web Developer" imageSrc="https://i.ibb.co/yVVT0Dp/image-02-2.jpg" />
+          <TeamCard name="Constance Khalumba" profession="Co-Founder" imageSrc={connie} />
+          <TeamCard name="Anthony Kimani" profession="Co-Founder" imageSrc={Anthony}/>
+          <TeamCard name="Vision" profession="Web Developer" imageSrc={John}/>
+          
         </div>
       </div>
     </section>
