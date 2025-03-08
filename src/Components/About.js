@@ -20,7 +20,11 @@ const About = () => {
           Food Waste Is Filling Our Landfills, While People Go Hungry
         </h1>
         <p className="primary-text">
-          In slum areas like Kibera, food waste is everywhere—from homes and restaurants to events, meetings, and celebrations.
+        In slum areas like Kibera, food waste is everywhere—from homes and restaurants to events, meetings, and celebrations. Perfectly good meals get tossed while families struggle to find their next one.
+
+        It’s not just waste—it’s a missed opportunity to feed people and protect our environment. Over a third of agricultural land and water worldwide is used to produce food that never gets eaten.
+
+        We’ve all seen it—stacks of untouched food trays at weddings, meetings, and parties. No one needs 30 leftover samosas and a mountain of rice—okay, maybe someone does. Instead of letting it go to waste, why not share it?
         </p>
         <p className="primary-text">
           That’s why we created Redifu—to connect surplus food with those who need it most.
