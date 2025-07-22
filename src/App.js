@@ -12,6 +12,7 @@ import Dashboard from "./Components/Dashboard";
 import Team from "./Components/Team";
 import TermsAndConditions from "./Components/TermsAndConditions";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
+import Shop from "./Components/shop/Shop";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/shop" element={<Shop />} />
         <Route path="/testimonials" element={<Testimonial />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
